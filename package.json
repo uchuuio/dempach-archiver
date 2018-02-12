@@ -1,0 +1,13 @@
+{
+  "name": "dempach-archiver",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node index.js",
+    "build": "zip -r dempach-archiver.zip ./ -x *.git* -x *.DS_Store*"
+  },
+  "dependencies": {
+    "date-fns": "^1.28.5",
+    "request": "^2.69.0"
+  }
+}
