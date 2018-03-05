@@ -1,3 +1,4 @@
+const AWS = require('aws-sdk');
 const format = require('date-fns/format');
 
 const path = require('path');
